@@ -1,0 +1,79 @@
+/* General layout */
+body {
+  font-family: Georgia, serif;
+  background-color: #f0f8ff;
+  color: #222;
+  padding: 30px;
+  margin: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #34495e;
+  margin-top: 1.2em;
+}
+
+/* Paragraphs and text */
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+strong {
+  color: #d35400;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.5em;
+}
+
+dl {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eef4f7;
+  border-left: 4px solid #7f8c8d;
+}
+
+/* Images */
+img {
+  margin-top: 15px;
+  margin-right: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Optional: unique layout for one page (e.g. top5.html) */
+ol {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 6px;
+}
